@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --whiteColor: #ffffff;
+}
+
 .main-page {
   max-width: 1440px;
   border: 2px solid black;
@@ -47,11 +51,52 @@ header {
   height: 24px;
 }
 
-/* .section1 {
+.section1 {
+  margin: 0 auto;
+  background-image: url(../img/Group\ 64\ Copy.png);
   border: 2px solid black;
-  width: 1111px;
+  max-width: 1111px;
   height: 640px;
-} */
+}
+
+.section1 .text_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.text_content h1 {
+  width: 33.75rem;
+  height: 10.313rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--whiteColor);
+}
+
+.text_content p {
+  width: 27.813rem;
+  height: 4.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: var(--whiteColor);
+}
+
+.text_content button {
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  border: none;
+}
+
+.text_content > button > .button_txt {
+  width: 103px;
+  height: 22px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21.68px;
+  letter-spacing: 1px;
+  text-align: left;
+}
 
 @media screen and (max-width: 1111px) {
   .index_header {
