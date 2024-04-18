@@ -6,6 +6,7 @@
 
 :root {
   --whiteColor: #ffffff;
+  --Peach: #e7816b;
 }
 
 body {
@@ -148,6 +149,118 @@ header {
 .grid_box_3 {
   grid-column: 2;
   grid-row: 2;
+}
+
+.foto_text_big_box_for_opasity {
+  width: 33.813rem;
+  height: 40rem;
+  border-radius: 0.875rem;
+  background-color: var(--Peach);
+}
+
+.foto_text_big_box_for_opasity > img {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease;
+}
+
+.foto_text_big_box_for_opasity:hover img {
+  opacity: 0.3;
+  background-blend-mode: multiply;
+}
+
+/* ? */
+
+.foto_text_small_box_for_opasity {
+  width: 33.813rem;
+  height: 19.25rem;
+  border-radius: 0.875rem;
+  background-color: var(--Peach);
+}
+
+.foto_text_small_box_for_opasity > img {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease;
+}
+
+.foto_text_small_box_for_opasity:hover img {
+  opacity: 0.3;
+  background-blend-mode: multiply;
+}
+/* /////////////////// */
+
+.foto_text > .text_h2 {
+  width: 16.75rem;
+  height: 5.875rem;
+  position: relative;
+  bottom: 22.938rem;
+  left: 8.563rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--whiteColor);
+}
+
+.foto_text > .text_h2 > h2 {
+  width: 16.625rem;
+  height: 3rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.113rem;
+  margin-bottom: 1.5rem;
+}
+
+.foto_text > .text_h2 span {
+  display: flex;
+  font-size: 0.938rem;
+  font-weight: 500;
+  line-height: 1.355rem;
+  letter-spacing: 0.313rem;
+}
+
+.arrow_img img {
+  margin-left: 24px;
+}
+
+/* ///////////////// */
+
+.foto_text > .text_h2_small_box {
+  width: 16.75rem;
+  height: 5.875rem;
+  position: relative;
+  bottom: 12.563rem;
+  left: 8.563rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--whiteColor);
+}
+
+.foto_text > .text_h2_small_box > h2 {
+  width: 400px;
+  height: 3rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.113rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.foto_text > .text_h2_small_box span {
+  display: flex;
+  font-size: 0.938rem;
+  font-weight: 500;
+  line-height: 1.355rem;
+  letter-spacing: 0.313rem;
+}
+
+.arrow_img img {
+  margin-left: 24px;
 }
 
 @media screen and (max-width: 1111px) {
