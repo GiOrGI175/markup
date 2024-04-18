@@ -7,6 +7,8 @@
 :root {
   --whiteColor: #ffffff;
   --Peach: #e7816b;
+  --light_peach: #ffad9b;
+  --dark_gray: #333136;
 }
 
 body {
@@ -44,6 +46,15 @@ header {
 
 .index_header nav ul li a {
   text-decoration: none;
+  color: var(--dark_gray);
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease;
+}
+.index_header nav ul li a:hover {
+  text-decoration: underline;
+  color: var(--dark_gray);
 }
 
 .logo {
@@ -95,6 +106,14 @@ header {
   height: 56px;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease;
+}
+.text_content button:hover {
+  background-color: var(--light_peach);
 }
 
 .text_content > button > .button_txt {
@@ -155,6 +174,7 @@ header {
   width: 33.813rem;
   height: 40rem;
   border-radius: 0.875rem;
+  cursor: pointer;
   background-color: var(--Peach);
 }
 
@@ -176,6 +196,7 @@ header {
   width: 33.813rem;
   height: 19.25rem;
   border-radius: 0.875rem;
+  cursor: pointer;
   background-color: var(--Peach);
 }
 
