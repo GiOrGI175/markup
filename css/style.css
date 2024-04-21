@@ -9,6 +9,7 @@
   --Peach: #e7816b;
   --light_peach: #ffad9b;
   --dark_gray: #333136;
+  --blak: #1d1c1e;
 }
 
 body {
@@ -284,6 +285,57 @@ header {
   margin-left: 24px;
 }
 
+.section3 {
+  margin: 0 auto;
+  max-width: 1110px;
+  height: 412px;
+  margin-top: 10rem;
+  display: flex;
+}
+
+.section3_box {
+  width: 21.875rem;
+  height: 25.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1.875rem;
+}
+
+.section3_box h2 {
+  width: 21.875rem;
+  height: 1.625rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.313rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section3_box p {
+  width: 21.875rem;
+  height: 6.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  text-align: center;
+}
+
+.footer_home {
+  max-width: 1440px;
+  height: 393px;
+  background-color: var(--blak);
+}
+
+.footer_box {
+  max-width: 1111px;
+  height: 292px;
+
+  background-image: url(../img/Group\ 28.png);
+}
+
 @media screen and (max-width: 1111px) {
   .index_header {
     padding: 0px 40px 0px 39px;
@@ -406,5 +458,53 @@ header {
 
   .foto_text > .text_h2_small_box {
     position: static;
+  }
+
+  .section3 {
+    max-width: 690px;
+    height: 670px;
+    flex-direction: column;
+  }
+
+  .section3_box {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    flex-direction: row;
+  }
+
+  .section3_box {
+    /* width: 21.875rem;
+    height: 25.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px; */
+  }
+
+  .section3_box h2 {
+    text-align: left;
+    margin: 0rem 0rem 1rem 3rem;
+    /* width: 21.875rem;
+    height: 1.625rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.313rem;
+    text-align: center;
+    margin-bottom: 2rem; */
+  }
+
+  .section3_box p {
+    width: 27.438rem;
+    height: 4.875rem;
+    text-align: left;
+    margin-left: 3rem;
+    /* width: 21.875rem;
+    height: 6.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    text-align: center; */
   }
 }
