@@ -7,9 +7,11 @@
 :root {
   --whiteColor: #ffffff;
   --Peach: #e7816b;
+  --light_pech: #ffad9b;
   --light_peach: #ffad9b;
   --dark_gray: #333136;
   --blak: #1d1c1e;
+  --light_grey: #f1f3f5;
 }
 
 body {
@@ -327,6 +329,75 @@ header {
   max-width: 1440px;
   height: 393px;
   background-color: var(--blak);
+  display: flex;
+  justify-content: center;
+}
+
+.footer_home_txtContent {
+  width: 1111px;
+  height: 177px;
+  padding-top: 144px;
+}
+
+.footer_home_nav {
+  width: 1111px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 40px;
+}
+
+.footer_home_nav img {
+  width: 202px;
+  height: 27px;
+}
+
+.footer_home_nav ul {
+  display: flex;
+}
+
+.footer_home_nav ul li {
+  list-style: none;
+  margin-left: 42px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: var(--whiteColor);
+}
+
+.footer_social_medea_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 31px;
+}
+
+.footer_box1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--dark_gray);
+}
+.bold_p {
+  font-weight: 700;
+}
+
+.footer_box2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--dark_gray);
+}
+
+.social_medea ul {
+  list-style: none;
+  display: flex;
+  margin-left: 197px;
+}
+
+.social_medea ul li {
+  margin-left: 16px;
 }
 
 .footer_box {
@@ -335,7 +406,43 @@ header {
   position: relative;
   left: 165px;
   top: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-image: url(../img/Group\ 28.png);
+}
+
+.footer_box button {
+  width: 152px;
+  height: 56px;
+  margin-right: 96px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  color: var(--dark_gray);
+  border-radius: 8px;
+}
+
+.footer_box_txt {
+  margin-left: 95px;
+}
+
+.footer_box_txt h1 {
+  width: 268px;
+  height: 98px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--whiteColor);
+}
+
+.footer_box_txt p {
+  width: 459px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--whiteColor);
 }
 
 @media screen and (max-width: 1111px) {
